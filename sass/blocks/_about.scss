@@ -1,0 +1,24 @@
+.about{
+    background-color: #F9F8F8;
+
+    &__wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    
+
+    &__text{
+        border: solid 2px;
+        width: 350px;
+        height: 450px;
+        padding: 10px;
+        
+    }
+
+    &__photo{
+        width: 500px;
+        height: 500px;
+    }
+}
