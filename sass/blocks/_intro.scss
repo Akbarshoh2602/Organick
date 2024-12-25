@@ -3,6 +3,7 @@
 
     &__wrapper{
         background-image: url(/Images/Background\ Patterns\ \(2\).svg);
+        height: 600px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -16,10 +17,10 @@
         font-family: Arial, Helvetica, sans-serif;
     }
 
-    &__img{
-        width: 900px;
-        height: 550px;
-    }
+    // &__img{
+    //     // width: 800px;
+    //     // height: 600px;
+    // }
 
     &__btn{
         border-radius: 15px;
