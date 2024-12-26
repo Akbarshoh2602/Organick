@@ -309,11 +309,22 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 200px;
 }
 .offer__text {
+  width: 800px;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  font-size: 1.6rem;
+  color: #fff;
+}
+.offer__text button {
+  padding: 8px;
+  background-color: rgb(241, 241, 50);
+  color: black;
+  border-radius: 10px;
+  cursor: pointer;
 }
 .offer__parent {
   margin-top: 20px;
