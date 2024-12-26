@@ -14,6 +14,10 @@
 .header {
   background-color: #fff;
   padding: 10px 70px;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
 }
 .header__wrapper {
   display: flex;
@@ -75,7 +79,7 @@
 }
 .intro__wrapper {
   background-image: url(/Images/Background\ Patterns\ \(2\).svg);
-  height: 600px;
+  height: 700px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -189,6 +193,7 @@
 
 .categories {
   background-color: #fff;
+  padding: 50px;
 }
 .categories__wrapper {
   display: flex;
@@ -199,6 +204,7 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 .categories__parent {
+  margin-top: 20px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
@@ -206,7 +212,7 @@
 .categories__child {
   width: 330px;
   height: 380px;
-  background-color: #F9F8F8;
+  background-color: #f9f8f8;
   border-radius: 10px;
   display: flex;
   justify-content: center;
@@ -221,14 +227,18 @@
 }
 .categories__btn {
   position: absolute;
-  top: 10px;
-  left: 15px;
+  top: 13px;
+  left: 16px;
   padding: 8px;
-  background-color: #274C5B;
+  background-color: #274c5b;
   color: #fff;
   border-radius: 5px;
   cursor: pointer;
   border: none;
+  transition: all 0.3s ease;
+}
+.categories__btn:hover {
+  background-color: rgb(197, 19, 19);
 }
 .categories__child h4 {
   border-bottom: 1px solid grey;
@@ -250,4 +260,116 @@
 }
 .categories__price i {
   color: goldenrod;
+}
+.categories__btn2 {
+  margin-top: 80px;
+  background-color: #274c5b;
+  padding: 12px 30px;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.categories__btn2:hover {
+  background-color: rgb(197, 19, 19);
+}
+
+.testimonial {
+  background-image: url(/Images/Testimonial\ section\ bcc.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 80vh;
+  padding: 0px 100px;
+}
+.testimonial__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 800px;
+  height: 80vh;
+}
+.testimonial__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 300px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.testimonial__img img {
+  border-radius: 50px;
+}
+
+.offer {
+  background-color: #274c5b;
+}
+.offer__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.offer__text {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.offer__parent {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+.offer__child {
+  width: 330px;
+  height: 380px;
+  background-color: #f9f8f8;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+.offer__img {
+  width: 270px;
+  height: 310px;
+  background-color: transparent;
+}
+.offer__btn {
+  position: absolute;
+  top: 13px;
+  left: 16px;
+  padding: 8px;
+  background-color: #274c5b;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease;
+}
+.offer__btn:hover {
+  background-color: rgb(197, 19, 19);
+}
+.offer__price {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+  padding: 20px 0;
+}
+.offer__price i {
+  color: goldenrod;
+}
+.offer__child span {
+  font-size: 15px;
+  text-decoration: line-through;
+}
+.offer__child h4 {
+  border-bottom: 1px solid grey;
+  padding-bottom: 10px;
+}
+.offer__child p {
+  font-size: 18px;
 }/*# sourceMappingURL=style.css.map */

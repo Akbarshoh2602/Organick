@@ -1,14 +1,17 @@
-.categories {
-  background-color: #fff;
-  padding: 50px;
+.offer {
+  background-color: #274c5b;
 
   &__wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  &__text{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
   }
 
   &__parent {
@@ -53,20 +56,6 @@
     }
   }
 
-  &__child h4 {
-    border-bottom: 1px solid grey;
-    padding-bottom: 10px;
-  }
-
-  &__child span {
-    font-size: 15px;
-    text-decoration: line-through;
-  }
-
-  &__child p {
-    font-size: 18px;
-  }
-
   &__price {
     display: flex;
     justify-content: space-around;
@@ -79,17 +68,17 @@
     color: goldenrod;
   }
 
-  &__btn2 {
-    margin-top: 80px;
-    background-color: #274c5b;
-    padding: 12px 30px;
-    color: #fff;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: all 0.3s ease;
+  &__child span {
+    font-size: 15px;
+    text-decoration: line-through;
+  }
 
-    &:hover {
-      background-color: rgb(197, 19, 19);
-    }
+  &__child h4 {
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+  }
+
+  &__child p {
+    font-size: 18px;
   }
 }
